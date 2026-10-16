@@ -1,0 +1,19 @@
+{
+  "name": "MyPlayerBuilder",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "MyPlayer": { "$path": "src/shared/MyPlayer" }
+    },
+    "ServerScriptService": {
+      "MyPlayerService": { "$path": "src/server/MyPlayerService.server.lua" }
+    },
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "MyPlayerClient": { "$path": "src/client/MyPlayerClient" }
+      }
+    }
+  }
+}
